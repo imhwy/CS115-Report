@@ -1,18 +1,55 @@
 # CS115-Report
+
 ## I. Datasets
+
 ### Source data
+
 - The dataset was used in the report is [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+- 
 ### Context 
+
 - This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
 ### Content
+
 - The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
+
 ## II. Data Exploration
-- There are 8 feature vector and about 768 data points.
->
-![image](https://user-images.githubusercontent.com/93437091/210246932-20b758af-3da4-4090-a13a-7dcca6a7c46a.png)
-- As we can ensure there is no NaN values, checking the amount of missing data of each features.
->
-![image](https://user-images.githubusercontent.com/93437091/210247124-3efe9fa6-a5c6-49b8-9217-2fcc643af44e.png)
-- The correlation between features
->
-<img src="https://user-images.githubusercontent.com/93437091/210245160-c9936063-eefb-4fae-95e9-bb02be30394d.png" alt="drawing" width="630"/>
+
+### Columns of dataset
+
+> 1. Pregnancies
+> 2. Glucose
+> 3. BloodPressure
+> 4. SkinThickness
+> 5. Insulin
+> 6. BMI
+> 7. DiabetesPedigreeFunction
+> 8. Age
+> 9. Outcome
+
+### Samples and Features
+
+- There are 768 **sample** and 9 columns which can be divided into 8 ***features*** and 1 ***label output***.
+- The output only has 2 class (1 or 0) but seem like the 0 class is approximately **twice** than 1 class (268-1 and 500-1).
+
+### Features exploration
+
+- The zero value of each feature. 
+
+| Name of columns | number of 0 value |
+|:----------------|------------------:|
+| Pregnancies | 111 |
+| Glucose | 5 |
+| BloodPressures | 35 |
+| SkinThickness | 227 |
+| Insulin | 374 |
+| BMI | 11 |
+| DiabetesPedigreeFunction | 0 |
+| Age | 0 |
+
+- It can be ensure that Pregnancies can have 0 value (did not have pregnance before). But with 5 features named Glucose, BloodPressures, SkinThickness, Insulin and BMI can not be 0 because of medical in numberal. 
+- Which means those 0 values are **missing data** and a suitable solution for this database is replacing all missing values of these 5 features by mean or median value of each feature.
+
+## II. Feature engineer
+
