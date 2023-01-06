@@ -53,3 +53,40 @@
 
 ## II. Feature engineer
 
+### Balancing data
+
+- As mentioned before, the label output has only 268 labels of 1 this number of 0 is 500 labels. This leads to imbalanced data and predictive model we build can be inclined to class 0.
+- The solution here is ***over samples*** to the class 1 which mean increasing the number of class 1 samples up to 500 samples.
+- Now we have 1000 samples which 500 samples of each class and the data now is balanced.
+
+### Work with missing data
+
+- There are of zero values of each features but we just concentrate on 5 features(Glucose, BloodPressures, SkinThickness, Insulin and BMI).
+- The solution is to replace all missing value by mean or median value of each features, here is mean one used.
+- The number of 0 value after replacing.
+
+| Name of columns | number of 0 value |
+|:----------------|------------------:|
+| Pregnancies | 111 |
+| Glucose | 0 |
+| BloodPressures | 0 |
+| SkinThickness | 0 |
+| Insulin | 0 |
+| BMI | 0 |
+| DiabetesPedigreeFunction | 0 |
+| Age | 0 |
+
+### Scaling method
+
+- There are two methods to scale the data is **Normalization** and **Standardization**.
+- Here i use the Normalization methods to scale.
+
+### Dimensionality reduction
+
+- **Principal component analysis** (PCA) is a usefull and common solution to reduce the feature vector but still keep anough information to train the predictive model.
+- With the number of features(8) it seem to be meaningless but in this report still showing the result of using pca.
+
+### Adding more features
+
+- This method is completely different from **Dimensionality reduction**.
+- The result of using this method is showed in this report.
