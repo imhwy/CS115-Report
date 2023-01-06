@@ -51,7 +51,7 @@
 - It can be ensure that Pregnancies can have 0 value (did not have pregnance before). But with 5 features named Glucose, BloodPressures, SkinThickness, Insulin and BMI can not be 0 because of medical in numberal. 
 - Which means those 0 values are **missing data** and a suitable solution for this database is replacing all missing values of these 5 features by mean or median value of each feature.
 
-## II. Feature engineer
+## III. Feature engineering
 
 ### Balancing data
 
@@ -90,3 +90,19 @@
 
 - This method is completely different from **Dimensionality reduction**.
 - The result of using this method is showed in this report.
+
+### Split data
+
+- To build a model, we do not use all of dataset to train or test. So spliting is obligatory
+- In this report the dataset is splited into training data, validation data and testing data.
+  - The training data is used for training the algorithms into a predictive model.
+  - The validation data is used for testing the model and assume the best one **(Evaluation metrics)**. 
+  - The testing data is used for user who working with the model after building.
+- There are a lot of way to split the data, but two common way of spliting is (70-20-10) and (60-20-10).
+- 70%-training, 20%-validation, 10%-testing is used in this report.
+
+## IV. Main algorithms and models
+
+- There are 4 algothms used include **Logistic Regression, K-nearest Neighbors, Decision Tree(gini, entropy), Support Vector Machine(linear, rbf)**.
+- We will not discuss the main idea of each algorithm in this report and just about the result of Pima dataset used for those.
+- 
