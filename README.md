@@ -114,3 +114,12 @@
 | The precision score | 0.7920792079207921 |
 | The recall score | 0.7843137254901961 |
 | The f1 score | 0.7881773399014778 |
+
+### K-nearest Neighbors
+
+| Evaluation metrics | percentages(%) |
+|:----------------|------------------:|
+| The accuracy score | 0.85 |
+| The precision score | 0.8103448275862069 |
+| The recall score | 0.9215686274509803 |
+| The f1 score | 0.8623853211009175 |
