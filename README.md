@@ -141,3 +141,7 @@
 | The precision score | 0.8350515463917526 | 0.87 |
 | The recall score | 0.7941176470588235 | 0.8529411764705882 |
 | The f1 score | 0.8140703517587939 | 0.8613861386138614 |
+
+## V. Evaluating solutions
+- Using cross validation to find the most suitable algorithm for this database.
+- With 10-fold **Decision treee using criterion ***entropy**** ** is the most suitable algorithm for Pima dataset.
