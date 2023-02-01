@@ -105,4 +105,12 @@
 
 - There are 4 algothms used include **Logistic Regression, K-nearest Neighbors, Decision Tree(gini, entropy), Support Vector Machine(linear, rbf)**.
 - We will not discuss the main idea of each algorithm in this report and just about the result of Pima dataset used for those.
-- 
+
+### Logistic Regression
+
+| Evaluation metrics | percentages(%) |
+|:----------------|------------------:|
+| The accuracy score | 0.785 |
+| The precision score | 0.7920792079207921 |
+| The recall score | 0.7843137254901961 |
+| The f1 score | 0.7881773399014778 |
