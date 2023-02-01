@@ -144,4 +144,4 @@
 
 ## V. Evaluating solutions
 - Using cross validation to find the most suitable algorithm for this database.
-- With 10-fold **Decision treee using criterion ***entropy**** ** is the most suitable algorithm for Pima dataset.
+- With 10-fold **Decision tree using criterion entropy** is the most suitable algorithm for Pima dataset.
