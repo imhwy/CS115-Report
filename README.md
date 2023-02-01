@@ -132,3 +132,12 @@
 | The precision score | 0.8737864077669902 | 0.9207920792079208 |
 | The recall score | 0.8823529411764706 | 0.9117647058823529 |
 | The f1 score | 0.8780487804878048 | 0.9162561576354681 |
+
+### Support vector machine
+
+| Evaluation metrics | percentages of linear(%) | percentages of rbf(%) |
+|:----------------|:------------------:|------------------:|
+| The accuracy score | 0.815 | 0.86 |
+| The precision score | 0.8350515463917526 | 0.87 |
+| The recall score | 0.7941176470588235 | 0.8529411764705882 |
+| The f1 score | 0.8140703517587939 | 0.8613861386138614 |
