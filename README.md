@@ -123,3 +123,12 @@
 | The precision score | 0.8103448275862069 |
 | The recall score | 0.9215686274509803 |
 | The f1 score | 0.8623853211009175 |
+
+### Decision Tree
+
+| Evaluation metrics | percentages of gini(%) | percentages of entropy(%) |
+|:----------------|:------------------:|------------------:|
+| The accuracy score | 0.875 | 0.915 |
+| The precision score | 0.8737864077669902 | 0.9207920792079208 |
+| The recall score | 0.8823529411764706 | 0.9117647058823529 |
+| The f1 score | 0.8780487804878048 | 0.9162561576354681 |
