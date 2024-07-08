@@ -1,5 +1,4 @@
-# CS115-Report
-
+# Pima Indians Diabetes analysis and prediction
 ## I. Datasets
 
 ### Source data
